@@ -13,6 +13,6 @@ import { Component1Component } from './component1/component1.component';
     BrowserModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [Component1Component]
 })
 export class AppModule { }

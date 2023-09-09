@@ -2,12 +2,12 @@
 
 ## Examples
 
-| Step          | Description                                                                                                                                                                                                         |
-|---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Setup Project | npm install -g @angular/cli  ( Setups angular environment)<br/>ng new first project ( Creates an empty Angular Application)<br/>ng server ( Run the Application )<br>http://localhost:4200 to display the empty app |
- | Module        | ng generate module module1<br>Creates a directory (module1) with a *.module.ts ( Contains @NgModule ) with declarations, imports                                                                                    |
- | Component     | ng generate component component1<br>Create a directory (component1) with fives files all start with component1 including *.component.css, *.component.html, *.component.spec.ts, *.component.ts                     |
- |
+| Step                          | Description                                                                                                                                                                                                                 |
+|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Setup Project                 | npm install -g @angular/cli  ( Setups angular environment)<br/>ng new first project ( Creates an empty Angular Application)<br/>ng server ( Run the Application )<br>http://localhost:4200 to display the empty app         |
+ | Module                        | ng generate module module1<br>Creates a directory (module1) with a *.module.ts ( Contains @NgModule ) with declarations, imports                                                                                            |
+ | Component                     | ng generate component component1<br>Create a directory (component1) with fives files all start with component1 including *.component.css, *.component.html, *.component.spec.ts, *.component.ts                             |
+ | Put Component on Default Page | Make a component the default Web page<br><br>1. Change file app.module.ts bootstrap list property from AppComponent to component1component<br>2. From app.component.html remove app-root tag and substitute app-component1. |
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
