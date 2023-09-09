@@ -1,10 +1,11 @@
 # HelloWorlds
 
-## Branches
+## Examples
 
 | Step          | Description                                                                                                                                                                                                         |
 |---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Setup Project | npm install -g @angular/cli  ( Setups angular environment)<br/>ng new first project ( Creates an empty Angular Application)<br/>ng server ( Run the Application )<br>http://localhost:4200 to display the empty app |
+ | Module        | ng generate module module1<br>Creates a directory (module1) with a *.module.ts ( Contains @NgModule ) with declarations, imports                                                                                    |
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
