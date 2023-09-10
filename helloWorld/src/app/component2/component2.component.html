@@ -1,1 +1,6 @@
 <p>component2 works!</p>
+
+<form (ngSubmit)="onSave(myForm)" #myForm="ngForm">
+  <input type="text" id="txtName" name="name" ngModel />
+  <input type="submit" id="textSubmit" value="Save" />
+</form>

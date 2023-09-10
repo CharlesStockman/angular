@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {NgForm} from "@angular/forms";
 
 @Component({
   selector: 'app-component2',
@@ -7,4 +8,7 @@ import { Component } from '@angular/core';
 })
 export class Component2Component {
 
+  onSave(form:NgForm) {
+    alert(form.value.name);
+  }
 }
