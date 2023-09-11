@@ -7,4 +7,23 @@ import { Component } from '@angular/core';
 })
 export class Component1Component {
   name:String = "Chuck";
+
+  // Code for One Way Binding
+  oneWayBinding="Chucks One Way Binding";
+
+  // Code for one way Property Binding
+  oneWayProperty:string ="Data in class";
+  alertUser() {
+    alert("The value  is " + this.oneWayProperty);
+  }
+
+  // Event Binding
+  message = "No Customers Added";
+  modifyMessage() {
+    this.message = "A customer has been added ";
+  }
+
+  // Two Way Binding
+  twoWayBinding: String = "default value";
+
 }

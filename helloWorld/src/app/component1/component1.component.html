@@ -1,6 +1,29 @@
 <p>component1 works!</p>
 <p>{{name}}</p>
+
+<h3>Inserting another component into component1</h3>
 <nav>
   <a routerLink="/test3">Test</a>
 </nav>
 <router-outlet></router-outlet>
+<h3>End inserting component into component</h3>
+
+<h3>Example of String Interpolation </h3>
+{{oneWayBinding}} <div style="display:inline">-- Changed in the typescript code cannot change here</div>
+
+<h3>Example of One Way Property Binding  -- From TypeScript to HTML </h3>
+<h4>Interesting : Getting the input from the TypeScript Class, but cannot change it.</h4>
+<input type="text" value="Input: " [value]="oneWayProperty" />
+{{oneWayProperty}}
+<input type="button" value="ClickMe" (click)="alertUser()" />
+
+<h3>Example of One Way Event Binding -- Using an event to change the variable </h3>
+<input type="Button" value="Get Message" (click)="modifyMessage()" />
+{{message}}
+
+<h2>Two Way Binding</h2>
+<input type="text" [(ngModel)]="twoWayBinding"/>
+{{twoWayBinding}}
+
+
+
